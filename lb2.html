@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чому важливо читати книги</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #444;
+            border-radius: 5px;
+        }
+
+        .content {
+            flex-grow: 1;
+        }
+
+        .content h1 {
+            text-align: center;
+            color: #333;
+            font-size: 32px; /* Збільшений розмір для головного заголовка */
+        }
+
+        .content h2 {
+            font-size: 24px; /* Менший розмір для підзаголовка */
+            color: #444;
+        }
+
+        .content p {
+            text-align: justify;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .content ul {
+            margin-top: 20px;
+            list-style-type: none;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .content ul li::before {
+            content: '📖'; 
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .photo-collage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .top-row img {
+            display: block;
+        }
+
+        .small-square {
+            width: 100px;
+            height: 100px;
+        }
+
+        .vertical-rectangle {
+            width: 100px;
+            height: 210px;
+        }
+
+        .bottom-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .bottom-row img {
+            width: 100px;
+            height: 100px;
+        }
+
+        img {
+            border: 2px solid #444;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Основний контент -->
+    <section class="main-content">
+        <!-- Галерея книг -->
+        <section class="gallery">
+            <img src="https://i.pinimg.com/736x/e2/5c/69/e25c693fef3e161041a97db525fa1456.jpg">
+            <img src="https://i.pinimg.com/736x/14/b6/70/14b670f183eb1a0ea98d5379f36edd86.jpg">
+            <img src="https://i.pinimg.com/736x/a7/52/ea/a752ea1a42ddbefb7414cd0e893bf1be.jpg">
+            <img src="https://i.pinimg.com/736x/2e/f3/b9/2ef3b9b97bcd64c8919e7bf4f5c3528b.jpg">
+            <img src="https://i.pinimg.com/736x/c2/46/1b/c2461bc7058cddbe5eb780f1cd5f73dc.jpg">
+        </section>
+
+        <!-- Контент -->
+        <section class="content">
+            <h1>Чому важливо читати книги</h1>
+            <p>
+                Читання книг – це не лише захопливий спосіб провести час, а й спосіб відкрити для себе нові світи, ідеї та погляди. Воно розвиває мислення, уяву і дає змогу поринути у культури, яких ми ніколи не бачили. Уявіть, що кожна книга – це двері у світ знань, мудрості та пригод.
+            </p>
+            <p>
+                Окрім того, читання сприяє збагаченню словникового запасу та покращенню мовних навичок. Це допомагає краще висловлювати свої думки, бути більш переконливими у спілкуванні та глибше розуміти інших людей. А головне, читання допомагає розвивати емпатію – здатність розуміти і відчувати почуття інших.
+            </p>
+            <p>
+                У сучасному світі цифрових технологій книги залишаються надійним джерелом натхнення, глибоких роздумів та інтелектуального збагачення. Це – один з небагатьох способів уникнути метушні та знайти час для себе.
+            </p>
+
+            <h2>Причини читати книги:</h2>
+            <ul>
+                <li>Читання розвиває критичне мислення та уяву.</li>
+                <li>Книги допомагають вивчати нові мови та розширювати кругозір.</li>
+                <li>Читання знижує рівень стресу та сприяє релаксації.</li>
+                <li>Книги – це джерело натхнення та нових ідей.</li>
+                <li>Читання допомагає краще розуміти людей і світ навколо нас.</li>
+            </ul>
+
+            <!-- Колаж з фотографій -->
+            <section class="photo-collage">
+                <!-- Верхній ряд -->
+                <div class="top-row">
+                    <img src="https://i.pinimg.com/736x/c7/2e/87/c72e877446557f4c5cba65712bf8ccbe.jpg" class="small-square">
+                    <img src="https://i.pinimg.com/736x/08/1d/6f/081d6fba8f466f546f92a894bd03e02e.jpg" class="vertical-rectangle">
+                    <img src="https://i.pinimg.com/736x/e4/a5/a4/e4a5a4776f7d566101449de48453d2b5.jpg" class="small-square">
+                </div>
+
+                <!-- Нижній ряд -->
+                <div class="bottom-row">
+                    <img src="https://i.pinimg.com/736x/a6/11/eb/a611eb4235c25a8b21f4c113aa60409b.jpg">
+                    <img src="https://i.pinimg.com/736x/c4/f9/07/c4f9078d799f58abde74331b1577a60f.jpg">
+                    <img src="https://i.pinimg.com/736x/2a/eb/ab/2aebab32dfe2a78d14b5619c3063eff8.jpg">
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+/* Зовнішній файл стилів */
+h1 {
+    color: #2c3e50;
+    font-size: 2em;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    margin: 5px 0;
+}
+
